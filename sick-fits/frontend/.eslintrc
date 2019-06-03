@@ -1,0 +1,16 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "double"],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": false,
+        "printWidth": 120,
+        "tabWidth": 8
+      }
+    ]
+  }
+}
